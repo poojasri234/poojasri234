@@ -1,36 +1,30 @@
 # Poojasri Medikonda
-### Data Analyst
 
-`SQL` · `Excel` · `Python` · `Power BI` · `Tableau`
+**Data Analyst**
+SQL · Excel · Python · Power BI · Data Quality · Dashboard Reporting
 
-2023 Information Technology graduate from JNTU Kakinada with internship experience at BrainOvision Solutions. I use data validation, analysis, and dashboards to turn raw datasets into clear, reviewable insights.
+I build reproducible analysis that turns messy operational and customer data into clear decisions. My case studies show the full path from data-quality checks and SQL analysis to a dashboard, recommendation, and documented limitations.
 
-[LinkedIn](https://www.linkedin.com/in/poojasree23/) · [Email](mailto:poojasrimedikonda@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/poojasree23) · [Email](mailto:poojasrimedikonda@gmail.com) · [Portfolio](https://poojasri234.github.io/)
 
-## Focus
+## Selected case studies
 
-- **Data preparation & quality:** cleaning, validation checks, reconciliations, and documented assumptions
-- **Analysis & reporting:** SQL querying, exploratory analysis, KPI reporting, trends, cohorts, and segmentation
-- **Dashboard delivery:** Power BI, Tableau, and Excel reporting with concise business context
+| Project | Business decision and evidence | Recommendation and value framing |
+| --- | --- | --- |
+| **[NYC 311 Service Operations Analysis](https://github.com/poojasri234/nyc-311-service-operations-analysis)**<br>[Live dashboard](https://poojasri234.github.io/nyc-311-service-operations-analysis/) | Profiled **13,811** public service requests from a one-day NYC Open Data snapshot. **HEAT/HOT WATER** was the slowest category among those with 1,000+ requests: **29.03 hours** median recorded resolution time. | Review routing and capacity for this high-volume category, then test changes against a holdout period. A 10% reduction in its **53,929.88 recorded elapsed hours** is sized at **~5,393 recorded elapsed hours**; this is an illustrative service scenario, not staff time saved or a forecast. |
+| **[E-commerce Sales Analysis](https://github.com/poojasri234/ecommerce-sales-analysis)**<br>[Live dashboard](https://poojasri234.github.io/ecommerce-sales-analysis/) | Applied documented duplicate and cancellation rules to public retail transactions: **£10.64M** gross invoiced sales across **19,960** eligible invoices; **84.6%** of the historical base was UK. | Monitor UK and international mix separately, then add returns, margin, delivery cost, and repeat purchase before a commercial decision. A 1% movement in the historical UK gross-invoice base is about **£90K** of invoice volume; it is not net revenue, profit, or a forecast. |
+| **[Customer Churn Analysis](https://github.com/poojasri234/customer-churn-analysis)**<br>[Live dashboard](https://poojasri234.github.io/customer-churn-analysis/) | In a public telecom sample, early-tenure, month-to-month customers had **51.35%** observed churn (**1,024 of 1,994**). | Test an onboarding and plan-review experience with a randomized holdout. Preventing 10% of observed churn events in the comparable cohort would mean **~102 fewer events** and roughly a **5.1-point** change in cohort churn; this is a scenario, not a causal result or forecast. |
+| **[Customer Value & Repeat Buying Analysis](https://github.com/poojasri234/customer-segmentation-analysis)**<br>[Live dashboard](https://poojasri234.github.io/customer-segmentation-analysis/) | **83.51%** of eligible gross invoice value was connected to a customer ID; the top 20% of identified customers generated **74.68%** of known-customer gross invoice value. | Improve CustomerID capture before personalisation, then test a post-first-purchase journey with a holdout. A 5-point coverage increase would make about **£0.53M** more of comparable historical gross-invoice value traceable; it is better measurement, not new sales. |
+| **[Credit Default Risk Analysis](https://github.com/poojasri234/credit-default-risk-analysis)**<br>[Live dashboard](https://poojasri234.github.io/credit-default-risk-analysis/) | In a public historical sample, the two-or-more-month-delay cohort had a **69.55%** observed next-month default rate versus **13.83%** for no reported delay. | Use the cohort as a descriptive monitoring signal, never as an automated credit decision. A 1-point reduction in a comparable future 3,130-client cohort equals **~31 fewer default-labelled accounts**; financial value requires exposure, loss, cost, fairness, and causal-effect data. |
 
-## Featured projects
+## How I make analysis reviewable
 
-> The metrics below are descriptive findings from the respective public-data portfolio projects.
+- Start with the business question, then document definitions, inclusion/exclusion rules, and data-quality checks.
+- Use **SQL** for validation and cohort/aggregation queries, with reproducible Python analysis and dashboard outputs.
+- Write stakeholder-focused recommendations with assumptions, measurement plans, and limitations; scenarios are labelled as illustrations, never realised impact.
 
-| Project | What it covers | Dataset insight | Explore |
-|---|---|---:|---|
-| **E-commerce Sales Analysis** | Sales trends, customer patterns, and data-quality checks | £10.64M gross invoiced sales across 19,960 eligible invoices | [Live dashboard](https://poojasri234.github.io/ecommerce-sales-analysis/) · [Repository](https://github.com/poojasri234/ecommerce-sales-analysis) |
-| **Customer Churn Analysis** | Contract cohorts and observed churn patterns | 26.54% overall observed churn; 42.71% for month-to-month customers | [Live dashboard](https://poojasri234.github.io/customer-churn-analysis/) · [Repository](https://github.com/poojasri234/customer-churn-analysis) |
-| **Customer Segmentation Analysis** | RFM and customer-value segmentation | Top 20% of known customers generated 74.7% of gross invoiced sales | [Live dashboard](https://poojasri234.github.io/customer-segmentation-analysis/) · [Repository](https://github.com/poojasri234/customer-segmentation-analysis) |
-| **Credit Default Risk Analysis** | Descriptive credit-risk and payment-delay monitoring | 22.12% observed default rate across 30,000 public records | [Live dashboard](https://poojasri234.github.io/credit-default-risk-analysis/) · [Repository](https://github.com/poojasri234/credit-default-risk-analysis) |
+## Toolkit
 
-## What you’ll find in each repository
+**SQL / SQLite** · **Excel** source-data handling · **Python / pandas** · **Power BI** report specifications and DAX measures · interactive HTML dashboards · data dictionaries · KPI definitions · data-quality checks
 
-- Source notes, scope, and data dictionaries
-- SQL queries, Python analysis, and validation checks
-- Dashboard specifications, aggregate outputs, and key findings
-- Clear limitations and follow-up questions for the analysis
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/poojasree23/) · [Email](mailto:poojasrimedikonda@gmail.com)
+Each repository includes source and scope notes, SQL, validation logic, aggregate outputs, a dashboard, and a decision-focused README. Public source data is linked rather than redistributed where appropriate.
